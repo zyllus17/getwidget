@@ -18,15 +18,15 @@ class GFBadgePosition {
           {double bottom = -8, double start = -10}) =>
       GFBadgePosition(bottom: bottom, start: start);
 
-  /// defines the position of badge
+  /// defines the top position of badge
   final double? top;
 
-  /// defines the position of badge
+  /// defines the end position of badge
   final double? end;
 
-  /// defines the position of badge
+  /// defines the start position of badge
   final double? start;
 
-  /// defines the position of badge
+  /// defines the bottom position of badge
   final double? bottom;
 }
